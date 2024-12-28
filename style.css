@@ -1,0 +1,88 @@
+
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #6200ea;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+section#search {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px 15px;
+  margin-right: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #6200ea;
+  color: white;
+  cursor: pointer;
+}
+
+button#reset {
+  background-color: #f44336;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+#card-details {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: white;
+  display: none; /* Hidden until a card is displayed */
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.card img {
+  max-width: 100px;
+  border-radius: 5px;
+}
+
+.card-info {
+  font-size: 14px;
+}
